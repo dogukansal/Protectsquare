@@ -17,9 +17,9 @@ public class AdmobFullscren : MonoBehaviour
     private void RequestInterstitial()
     {
 #if UNITY_ANDROID
-        string adUnitId = "ca-app-pub-6469014985923539/3046603304";
+        string adUnitId = "ca-app-pub-/";
 #elif UNITY_IPHONE
-        string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+        string adUnitId = "ca-app-pub-/";
 #else
         string adUnitId = "unexpected_platform";
 #endif
